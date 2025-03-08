@@ -12,6 +12,7 @@ from queue import Queue, Empty
 from model.pytorch_msssim import ssim_matlab
 
 warnings.filterwarnings("ignore")
+os.chdir("/ECCV2022-RIFE")
 
 def transferAudio(sourceVideo, targetVideo):
     import shutil

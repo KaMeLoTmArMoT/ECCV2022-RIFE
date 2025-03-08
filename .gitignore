@@ -6,6 +6,7 @@
 output/*
 train_log/*
 *.mp4
+*.pth
 
 test/
 .idea/

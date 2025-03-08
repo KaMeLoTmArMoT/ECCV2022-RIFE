@@ -5,6 +5,7 @@ import argparse
 from torch.nn import functional as F
 import warnings
 warnings.filterwarnings("ignore")
+os.chdir("/ECCV2022-RIFE")
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 torch.set_grad_enabled(False)
